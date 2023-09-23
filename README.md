@@ -12,8 +12,7 @@
 实现客户端监听发现服务端：实现CuratorWatcher的process方法  
 
 # 架构图
-![image](https://github.com/zzc-000/RPC/assets/80253855/5f886516-42ac-46e5-ada0-de573999e37a)
-
+![image](https://github.com/zzc-000/RPC/assets/80253855/e88c93eb-7e73-4590-8329-ed6fac6a60f8)
 
 
 
