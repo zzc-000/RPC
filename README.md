@@ -1,15 +1,15 @@
 # RPC
 ## 本项目为基于Netty，Spring和zookeeper的RPC框架，实现了以下内容：
-实现长连接：reentrantLock
-实现异步调用：Wait-notify
-实现注解调用几乎零配置
-实现JSON序列化
-实现心跳检测：IdleStateHandler()
-实现客户端自启动
-实现请求超时判断：后台守护线程
-实现客户端请求动态代理：遍历Field找到目标注解，使用Enhancer拦截实现动态代理
-实现服务端注册
-实现客户端监听发现服务端：实现CuratorWatcher的process方法
+实现长连接：reentrantLock  
+实现异步调用：Wait-notify  
+实现注解调用几乎零配置  
+实现JSON序列化  
+实现心跳检测：IdleStateHandler()  
+实现客户端自启动  
+实现请求超时判断：后台守护线程  
+实现客户端请求动态代理：遍历Field找到目标注解，使用Enhancer拦截实现动态代理  
+实现服务端注册  
+实现客户端监听发现服务端：实现CuratorWatcher的process方法  
 
 # 架构图
 
